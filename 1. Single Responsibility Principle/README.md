@@ -1,6 +1,6 @@
 # Single Responsibility Principle (SRP)
 
-**Every software component should have one and only one responsibility / reason to change**
+**Every software component should have one and only one responsibility / reason to change**. 
 Component can be a class, a method or a module.
 
 **Concepts related to SRP:**
