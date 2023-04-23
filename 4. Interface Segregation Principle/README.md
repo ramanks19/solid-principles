@@ -2,7 +2,7 @@
 
 **No clients should be forced to depend on methods it does not use**
 
-**Techniques to Identift Violations of ISP-**
+**Techniques to Identify Violations of ISP-**
 - **Fat Interfaces** - An interface that has too many methods.
 - **Interfaces with Low Cohesion** - An interface that contains methods that are unrelated or do not have a clear and specific purpose.
 - **Empty Method Implementations** - If a client implements an interface but leaves some methods empty because they do not use them, it may be a sign of ISP violation.
