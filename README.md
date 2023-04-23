@@ -10,3 +10,6 @@ The word SOLID is an acrynom for:
 - [Liskov Substitution Principle](https://github.com/ramanks19/solid-principles/tree/main/3.%20Liskov%20Substitution%20Principle)
 - [Interface Segregation Principle](https://github.com/ramanks19/solid-principles/tree/main/4.%20Interface%20Segregation%20Principle)
 - [Dependency Inversion Principle](https://github.com/ramanks19/solid-principles/tree/main/5.%20Dependency%20Inversion%20Principle)
+
+
+**All SOLID principles are intertwined and interdependents. These are most effective when combined together.**
