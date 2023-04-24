@@ -13,3 +13,18 @@ The word SOLID is an acrynom for:
 
 
 **All SOLID principles are intertwined and interdependents. These are most effective when combined together.**
+
+If we don’t follow SOLID Principles we:  
+1. End up with tight or strong coupling of the code with many other modules/applications
+2. Tight coupling causes time to implement any new requirement, features or any bug fixes and some times it creates unknown issues
+3. End up with a code which is not testable
+4. End up with duplication of code
+5. End up creating new bugs by fixing another bug
+6. End up with many unknown issues in the application development cycle
+
+Following SOLID Principles helps us to:  
+1. Achieve reduction in complexity of code
+2. Increase readability, extensibility and maintenance
+3. Reduce error and implement Reusability
+4. Achieve Better testability
+5. Reduce tight coupling

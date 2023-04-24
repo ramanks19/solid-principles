@@ -1,0 +1,10 @@
+# Dependency Inversion Principle (DIP)
+
+**High-level modules (modules ccontaining business logic) should not depend on low-level modules (modules containing implementation details). Both should depend on abstractions (interfaces or abstract classes).**
+This means that high-level modules should be decoupled from low-level modules, which allows for greater flexibility and easier maintenance.
+
+Two definitions to consider:
+- **Dependency Injection (DI)** -  A design pattern that enables decoupling of objects and promotes flexibility and modularity in code. In DI, instead of objects creating their own dependencies, they are provided with dependencies from external sources. The external sources are typically frameworks or containers that manage the objects' dependencies. There are three types of DI in Java: Constructor Injection, Setter Injection, and Field Injection.
+- **Inversion of Control (IoC)** - A programming principle that flips the traditional relationship between objects and their dependencies. In traditional programming where objects had to create and manage their dependencies, with IoC, this relationship is inverted, and objects no longer create or manage their dependencies. Instead, the responsibility of creating and managing dependencies is shifted to an external entity, which is often referred to as a container or framework. This external entity provides objects with the dependencies they require to function properly, thus promoting modularity and flexibility in the code. DI is a common way to achieve IoC.
+
+In the given example, the ProductCatalog class is a high-level module that lists all the products, and it depends on the ProductRepository abstraction rather than a concrete implementation. The ProductFactory class uses the SQLProductRepository class to create a ProductRepository object, which can be used to access the product data. This approach ensures that the high-level ProductCatalog class is not coupled to the specific details of the low-level data access mechanism, allowing for flexibility and easier maintenance.
