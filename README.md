@@ -14,17 +14,18 @@ The word SOLID is an acrynom for:
 
 **All SOLID principles are intertwined and interdependents. These are most effective when combined together.**
 
-If we don’t follow SOLID Principles we:  
-1. End up with tight or strong coupling of the code with many other modules/applications
-2. Tight coupling causes time to implement any new requirement, features or any bug fixes and some times it creates unknown issues
-3. End up with a code which is not testable
-4. End up with duplication of code
-5. End up creating new bugs by fixing another bug
-6. End up with many unknown issues in the application development cycle
+If we don’t follow SOLID Principles, we may encounter various problems during the development and maintenance of software, such as:
+- Code Smells: Poor design choices result in code smells that are hard to understand and maintain.
+- Tight Coupling: Code modules become interdependent and tightly coupled, making it challenging to modify, test, or reuse them.
+- Scalability Issues: A tightly coupled codebase can be difficult to scale and may require significant resources for future modifications.
+- Rigidity: A small change in the system results in a series of changes throughout the system. This makes it difficult to introduce new features or update existing ones.
+- Difficulty in Testing: Tight coupling can lead to difficulty in writing unit tests for modules or systems.
+- Maintenance Challenges: Maintenance and modification of the codebase may become challenging due to a lack of clarity, flexibility, and scalability.
+- Reduced Code Reuse: Code that is tightly coupled is difficult to reuse in other systems or projects.
 
 Following SOLID Principles helps us to:  
-1. Achieve reduction in complexity of code
-2. Increase readability, extensibility and maintenance
-3. Reduce error and implement Reusability
-4. Achieve Better testability
-5. Reduce tight coupling
+- Maintainability: The SOLID principles help in writing clean, modular, and well-organized code, which is easier to maintain and update.
+- Reusability: By writing modular code, we can reuse components in different parts of the application, thus reducing code duplication and improving efficiency.
+- Testability: SOLID principles promote writing code that is easier to test and debug.
+- Flexibility: Code written following SOLID principles can be more easily modified or extended to meet new requirements.
+- Scalability: SOLID principles can help in building systems that are scalable and can handle changes or growth in the future.
